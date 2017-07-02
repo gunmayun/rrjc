@@ -1,0 +1,832 @@
+
+ 
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <base href="https://www.rrjc.com:443/" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache, must-revalidate"> 
+	<meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT">
+	<meta name="description" content="我的任务-人人聚财-互联网理财最佳平台" />
+	<meta name="keywords"	content="我的任务-人人聚财-互联网理财最佳平台" />
+	<title>访问的页面不存在</title>
+    <link href="https://www.rrjc.com:443/statics/css/public/base.css" rel="stylesheet" type="text/css"/>
+    <link href="https://www.rrjc.com:443/statics/css/index/index.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="https://www.rrjc.com:443/statics/css/zhanghu/robot_page.css">
+    <link rel="stylesheet" type="text/css" href="https://www.rrjc.com:443/statics/css/zhanghu/robot_styles.css">
+	
+</head>
+	
+
+<body>
+ 	<!DOCTYPE html>
+<html>
+<head>
+<base href="https://www.rrjc.com/" />
+	<meta http-equiv="pragma" content="no-cache"/>
+	<meta http-equiv="cache-control" content="no-cache"/>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="expires" content="0"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<script type="text/javascript" src="js_new/jquery-1.8.3.min.js"></script>
+	 
+	<script type="text/javascript" src="js_new/jquery.cookie.js"></script>
+	<script type="text/javascript" src="script/jquery.shove-1.0.js"></script>
+	<script type="text/javascript" src="js_new/tipswindown.js"></script>
+	<script type="text/javascript" src="js_new/home.js"></script>
+	<script type="text/javascript" src="js_new/tus.js"></script>
+	<script type="text/javascript" src="My97DatePicker/WdatePicker.js"></script>
+ 	<script type="text/javascript" src="SpryAssets/SpryMenuBar.js"></script>
+	<script type="text/javascript" src="js_new/dateUtil.js"></script>
+	<script type="text/javascript" src="js_new/invest-record.js"></script>
+	<script type="text/javascript" src="js_new/artDialog/source/artDialog.js"></script>
+	<script type="text/javascript" src="js_new/uploadify/jquery.uploadify.min.js"></script>
+	<script type="text/javascript" src="js_new/argMsg.js"></script>
+	<script type="text/javascript" src="js_new/realNameAuthent.js"></script>
+	<script type="text/javascript" src="statics/js/module/dialo1.js"></script>
+	
+	
+	<link rel="shortcut icon" href="favicon.ico">
+	<link href="css_new/renrenmoney.css" rel="stylesheet" type="text/css" /> 
+	
+	<link href="css_new/home.css" rel="stylesheet" type="text/css" />
+	<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+	<link href='css_new/uploadify.css' rel='stylesheet'/>
+	<link href="js_new/artDialog/skins/default.css" rel="stylesheet" />
+	<link href="statics/css/rrjc.css" rel="stylesheet" type="text/css" />
+	 
+	 
+	<meta name="360-site-verification" content="46484649dbf4f7f1d3a4011e8357c548" />
+	<meta property="qc:admins" content="2621426666622236375" />
+	
+	
+	<!-- add by qinghua -->
+	<link href="statics/css/public/base.css" rel="stylesheet" type="text/css" />
+	<link href="statics/css/index/index.css" rel="stylesheet" type="text/css" />
+	
+<script type=text/javascript>
+var environment = {
+	userVo : '',
+	role : '',
+	userId : '',
+	basePath : '',
+	userCash : ''
+};
+</script>
+<script type=text/javascript src="js_new/global-1.1.0.min.js"></script>
+<script type="text/javascript">
+ 
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+// open hidden layer
+function mopen(id)
+{	
+	// cancel close timer
+	mcancelclosetime();
+	// close old layer
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+	// get new layer and show it
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.visibility = 'visible';
+}
+// close showed layer
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+}
+// go close timer
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+
+// close layer when click-out
+document.onclick = mclose; 
+ 
+var $=jQuery;
+$(document).ready(function() {
+	$("#id1").click(function() {
+		tipsWindown("关注人人聚财官方微信","id:testID","250","300","true","","true","id");
+	});
+ 
+});
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function addToFavorite(){var a="https://www.rrjc.com/",b="\u4eba\u4eba\u805a\u8d22 \u8ba9\u4e0a\u73ed\u65cf\u5148\u5bcc\u8d77\u6765";document.all?window.external.AddFavorite(a,b):window.sidebar&&window.sidebar.addPanel?window.sidebar.addPanel(b,a,""):alert("\u5bf9\u4e0d\u8d77\uff0c\u60a8\u7684\u6d4f\u89c8\u5668\u4e0d\u652f\u6301\u6b64\u64cd\u4f5c!\n\u8bf7\u60a8\u4f7f\u7528\u83dc\u5355\u680f\u6216Ctrl+D\u6536\u85cf\u672c\u7ad9\u3002"),createCookie("_fv","1",30,"/;domain=rrjc.com")}
+function createCookie(a,b,c,d){var d=d?d:"/";if(c){var e=new Date;e.setTime(e.getTime()+1e3*60*60*24*c);var f="; expires="+e.toGMTString()}else var f="";document.cookie=a+"="+b+f+"; path="+d}
+</script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<style>
+	.tabtop-1{width:375px!important;}
+	.tabtop-1-4{width:33px!important;}
+	.shuangshiyi{float:left;width:138px;height:30px;overflow:hidden;}
+	.shuangshiyi a{display:block;height:100%;padding-left:58px;background:url(images_new/saleTicketActivity/1111.png) no-repeat;color:#ffffcc!important;}
+	.shuangshiyi a:hover{color:#ffff33!important;text-decoration:none!important;}
+	.aLeft{float:left;}
+	.aRight{float:right;}
+	.head_width ul{width:auto!important;}
+	.head_width{width:1000px!important;}
+	.c:after{content:".";display:block;font-size:0;height:0;clear:both;visibility:hidden}
+	.c{zoom:1}
+
+.header{height:41px;}
+.logo {width: 327px;height: 44px;margin:16px 0 0;}
+.nav .cnt {height:75px;}
+</style>
+</head>
+<body>
+<div class="login" id="login">
+    <h2 class="c">
+        <span>登录</span>
+        <a href="javascript:;">忘记密码？</a><b>|</b><a class="zhuce" href="javascript:;">免费注册</a>
+    </h2>
+    <label class="label1">
+        <input type="text" id="username" placeholder="请输入手机号/用户名/邮箱"/>
+    </label>
+    <label class="label2">
+        <input type="password" id="pwd" placeholder="请输入登录密码" maxlength="20"/>
+    </label>
+    <label class="label3 c" id="codelabel">
+        <input type="text" id="yzcode" placeholder="请输入验证码" maxlength="4"/>
+        <a href="javascript:;"></a>
+    </label>
+    <p class="lg-error" id="error"></p>
+    <a class="lg-btn" id="lg-btn" href="javascript:;">确认</a>
+    <a class="close-login" id="close-login" href="javascript:;" title="关闭"></a>
+</div>
+<div class="header">
+    <div class="cnt auto c">
+        <div class="left c">
+            <p>服务热线：400-9690-900</p>
+            <a class="qq J-desk" href="javascript:;" id="qq"></a>
+            <a class="wx" href="javascript:;" id="wx"></a>            
+            <a class="sina" href="javascript:;" id="sina"></a>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a class="alink" href="https://www.rrjc.com/aboutUsMain.do">关于我们</a></li>
+                <li><a class="alink" href="help/helpIndex.html">帮助</a></li>
+             <li ><a id="login_a" class="spcail alink" href="login.do"  >登录</a></li>
+                <li> <a class="spcail alink" href="reg.do">注册</a></li>
+             <li class="kfd"><a class="alink" href="https://www.rrjc.com/app">手机客户端</a></li>
+                <li><a class="alink" href="index.jsp">首页</a></li> 
+               
+            </ul>
+        </div>
+        <div class="code" id="codema">
+            <span></span>
+            <img src="statics/images/homepage/codeTwo.png" width="250" height="164" alt="二维码"/>
+        </div>
+        <div class="gz-wb qqkf" id="qqkf">点击咨询在线客服<span></span></div>
+        <div class="gz-wb weibo" id="weibo">点击关注"人人聚财"微博<span></span></div>
+    </div>
+</div>
+ <div id="lockScreen"></div>
+    <div class="nav">
+    <div class="cnt auto c" style='position:relative;'>
+        <a class="logo" href="index.jsp">
+            <img src="statics/seo/images/public/logo.png"/>
+        </a>
+         <ul class="fr" id="nav">
+            <li class="nav-li">
+                <a class="nav-a" href="toFinance.do" title="">我要理财<span></span><b class="b1"></b></a>
+                <ul>
+                    <li><em></em><a href="xsb">新手标</a></li>
+                    <li><em></em><a href="vplan">V专享</a></li>
+                    <li><em></em><a href="planBorrowList.do?type=2">定投宝</a></li>
+                    <li><em></em><a href="finance.do">月月赚</a></li>
+                    <!--
+                    <li><em></em><a href="javascript:toLoginInfo();">天天赚<b class="b3"></b></a></li>
+                	
+                    -->
+                    <li><a href="queryFrontAllDebt.do?type=1">债权项目</a></li>
+                </ul>
+            </li>
+            <li class="nav-li"><a class="nav-a" href="borrow.do" title="">我要借款</a></li>
+            <li class="nav-li"><a class="nav-a" href="help/newPerson.jsp" title="">新手理财</a></li>
+            <li class="nav-li">
+                <a class="nav-a" href="zt/anquan/aqbz" title="" target="_blank">安全保障<span></span><b class="b1"></b></a>
+                <ul>
+                    <li><em></em><a href="guideToXiaMenBank.do" target="_blank">银行存管</a></li>
+                    <li><em></em><a href="zt/fengkong/" target="_blank">风控安全</a></li>
+                    <!-- 
+                    <li><em></em><a href="http://mp.weixin.qq.com/s?__biz=MjM5NDM5MjkyMA==&mid=204658128&idx=2&sn=d70c9dc4a0efba607cf18aa88ed52b3b#rd" target="_blank">FICO管理</a></li>
+                     -->
+                    <li><em></em><a href="bz/cfca" target="_blank">电子签章</a></li>
+                    <li><a href="zt/lssws/flbz" target="_blank">法律保障</a></li>
+                     <!-- <li><em></em><a href="http://mp.weixin.qq.com/s?__biz=MjM5NDM5MjkyMA==&mid=205536722&idx=2&sn=24274414048e6f001ac1b10eea66fab3#rd" target="_blank">阳光保险</a></li> -->
+                    <!--  <li><a href="zt/anquan/aqbz" target="_blank">安全保障</a></li>-->
+                </ul>
+            </li>
+            <li class="nav-li">
+		       	 <a class="nav-a" href="javascript:;" onclick="loginBBS();" title="">财迷论坛</a><em></em>
+            </li>
+            <li class="nav-li">
+             <a class="nav-a" href="javascript:toLoginInfo();" title="">我的账户<span></span><b class="b1"></b></a>
+             <ul>
+                	<li>
+                    <em></em><a href="javascript:toLoginInfo();">定投宝</a>
+                     </li>
+                    <li>
+                     <em></em><a href="javascript:toLoginInfo();">月月赚</a>
+                     </li>
+                    <li>
+                     <em></em><a href="javascript:toLoginInfo();">账户管理</a>
+                     </li>
+                    <li>
+                    <em></em><a href="javascript:toLoginInfo();">我的积分</a>
+                     </li>
+                     <li>
+                    <a href="javascript:toLoginInfo();">积分乐园</a>
+                     </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+ <div id="setusername" style="display: none">
+        <div class="setusername">
+            <h2>请设置您个性化用户名</h2>
+            <p>注：只有在设置完个性化用户名以后，才能进行投资、登录论坛，点击确认进行设置。</p>
+            <div class="setname-btn c">
+                <a class="a1" href="javascript:;" onclick="$('#msgbox,#msgbox-mask').hide();">取消</a>
+                <a class="a2" href="owerInformationInit.do?pathSource=4">确认</a>
+                <input type="hidden" id="userName" value=""/> 
+                <input type="hidden" id="userId" value=""/> 
+            </div>
+        </div>
+ </div><script type="text/javascript">
+$.ajax({
+        type : "post",
+        url : "testSecureHttps.do",
+        dataType:"json",
+        success : function(data){
+        	if(data.msg==1){
+        		 $('#login_a').attr("href","https://www.rrjc.com/login.do");
+        	}
+        }
+    });
+    
+function logClick(){
+	
+	 if($.browser.msie){
+	      window.location.href="https://www.rrjc.com/login.do";
+	 }else{
+		 window.location.href="login.do";
+	 }
+	 
+	 
+	/*
+	$.ajax({
+        type : "post", 		       	        
+        //url : "https://secure.rrjc.com/login.do", 
+        //url : "www.rrjc.com/login.do",
+        url : "testSecureHttps.do",
+       // data : {"userId":"1701"},
+        //dataType:"jsonp",
+        success : function(data){
+        	if(data.msg==1){
+        		 //alert("success");
+        		 if($.browser.msie){
+        		      window.location.href="../login.do";
+        		 }else{
+        			 window.location.href="login.do";
+            	 }
+        	}else{
+        		 if($.browser.msie){
+       		      window.location.href="../login.do?id=999";
+	       		 }else{
+	       			 window.location.href="login.do?id=999";
+	           	 }
+        	}
+        } 
+    });
+	*/
+}
+function loginBBS(){
+	var name="";
+	if(null!=name&&name!=""){
+		var name="";
+		var userId="";
+		if(name.indexOf("rrjc"+userId)>=0){
+			return confirmUpdateUserInfo();
+		}else if(name.indexOf("wb_")>=0){
+			return confirmUpdateUserInfo();
+		}else if(name.indexOf("qq_")>=0){
+			return confirmUpdateUserInfo();
+		}else{
+			
+			window.open("https://www.rrjc.com/loginBBS.do",'_blank');
+			
+		}
+	}else{
+		
+			window.open("https://www.rrjc.com/loginBBS.do",'_blank')
+			
+	}
+}
+//更新用户信息确认
+function confirmUpdateUserInfo(){
+	art.dialog({
+		title:'设置个性化用户名提示',
+		content:'<div style="text-align:center;">请设置您个性化用户名</div><div style="color:red;padding-top:20px;">注:只有在设置完个性化用户名以后，才能进行投资、登录论坛，点击确认进行设置。</div>',
+		width: 300,
+		height:150,
+		okValue: '确定',
+		ok:function(){
+		    window.location.href="owerInformationInit.do?pathSource=4";
+			return true;
+		},
+		cancelValue: '取消',
+		cancel:true,
+		lock:false,
+		fixed: true
+  });
+	  return false;
+}
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+if(""!="" ){
+	$("#loginInfo").html('Hi,<a href="home.do" >[]</a><span >&nbsp;|&nbsp;</span><a href="logout.do?id=8" >退出</a>');
+}	
+//if(""==""){
+	$("#stiMas").hide();
+//}else{
+//	$.post("updateUnReadCount.do","",function(data){
+//	});
+//}
+function openExperience(){
+	showDiv();
+}
+</script>
+<div style="display:none;">
+<div id="simTestContent" class="simScrollCont">
+<div class="mainlist">
+<img src="images_new/2weima.jpg" /></div>
+打开微信，点击底部的″发现″，使用″扫一扫″即可关注人人聚财官方微信。
+</div>
+<div style="DISPLAY: none" id=testID>
+  <p><img src="images_new/2weima.jpg" width="250" height="250" /></p>打开微信，点击底部的″发现″，使用″扫一扫″即可关注人人聚财官方微信. </div>
+</div>
+</body>
+ </html>
+	 <div>
+    <div class="robotpage-top-half">
+		<div id="robot_holder" class="no-svg">
+            <!--?xml version="1.0" encoding="utf-8"?-->
+            <!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+			<div class="svg"><img src="https://www.rrjc.com:443/statics/images/zhanghu/svg.png" /></div>
+            <svg id="brokebotSVG" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 551 239" enable-background="new 0 0 551 239" xml:space="preserve" preserveAspectRatio="xMidYMax">
+					<text style="opacity: 1; display: none;" id="errorCodeTxt" transform="matrix(1 0 0 1 6.7231 240.0011)" class="error_code">404</text>
+					<g id="robotHead">
+						<rect x="359.2" y="173.1" class="robot_limbs_and_ears" width="6.4" height="23.3"></rect>
+						<rect x="348.1" y="185.4" class="robot_body" width="28.5" height="11"></rect>
+						<path class="robot_limbs_and_ears" d="M392,197.7h-59.2l0,0c0-3.7,3-6.8,6.8-6.8h45.6C388.9,190.9,392,193.9,392,197.7L392,197.7z"></path>
+						<rect x="288.5" y="207.5" class="robot_limbs_and_ears" width="147.7" height="18.7"></rect>
+						<path class="robot_body" d="M419.3,238.9H305.5c-5.5,0-10-4.5-10-10V207c0-5.5,4.5-10,10-10h113.8c5.5,0,10,4.5,10,10v21.9
+							C429.3,234.4,424.8,238.9,419.3,238.9z"></path>
+						<circle class="robot_eye_whites" cx="317" cy="216.4" r="11.7"></circle>
+						<circle class="robot_eye_whites" cx="407.7" cy="216.4" r="11.7"></circle>
+						<g transform="matrix(1,0,0,1,-2,-2)" data-svg-origin="311 210.39999389648438" id="eyesMove">
+							<g transform="matrix(1,0,0,1,0,0)" data-svg-origin="311 216.39999389648438" id="eyesBlink">
+								<rect x="311" y="210.4" class="robot_eyes" width="12.1" height="12.1"></rect>
+								<polygon class="robot_eyes_highlight" points="323.1,210.4 311,210.4 323.1,222.5 			"></polygon>
+								<rect x="401.7" y="210.4" class="robot_eyes" width="12.1" height="12.1"></rect>
+								<polygon class="robot_eyes_highlight" points="413.7,210.4 401.7,210.4 413.7,222.5 			"></polygon>
+							</g>
+						</g>
+						<rect x="339" y="219.9" class="robot_limbs_and_ears" width="5.3" height="9.8"></rect>
+						<rect x="347.3" y="219.9" class="robot_limbs_and_ears" width="5.3" height="9.8"></rect>
+						<rect x="355.6" y="219.9" class="robot_limbs_and_ears" width="5.3" height="9.8"></rect>
+						<rect x="363.9" y="219.9" class="robot_limbs_and_ears" width="5.3" height="9.8"></rect>
+						<rect x="372.2" y="219.9" class="robot_limbs_and_ears" width="5.3" height="9.8"></rect>
+						<rect x="380.5" y="219.9" class="robot_limbs_and_ears" width="5.3" height="9.8"></rect>
+						<circle class="robot_antenna" cx="362.4" cy="167.9" r="10"></circle>
+						<circle class="robot_antenna_highlight" cx="363.4" cy="165.9" r="5.5"></circle>
+					</g>
+					<g id="robotbody">
+						<rect x="154.3" y="184.1" class="robot_limbs_and_ears" width="7" height="16.7"></rect>
+						<path class="robot_limbs_and_ears" d="M162.6,234.1h-9.7c-2.8,0-5-2.2-5-5v-22.7c0-2.8,2.2-5,5-5h9.7c2.8,0,5,2.2,5,5v22.7
+							C167.6,231.8,165.3,234.1,162.6,234.1z"></path>
+						<path class="robot_hands_feet" d="M172.7,238.9c0-8.2-6.7-14.9-14.9-14.9c-8.2,0-14.9,6.7-14.9,14.9H172.7z"></path>
+						<circle class="robot_joints_and_belly" cx="157.8" cy="203.1" r="5.1"></circle>
+						<path class="robot_limbs_and_ears" d="M221.3,234.1h-9.7c-2.8,0-5-2.2-5-5v-22.7c0-2.8,2.2-5,5-5h9.7c2.8,0,5,2.2,5,5v22.7
+							C226.3,231.8,224,234.1,221.3,234.1z"></path>
+						<path class="robot_hands_feet" d="M231.3,238.9c0-8.2-6.7-14.9-14.9-14.9c-8.2,0-14.9,6.7-14.9,14.9H231.3z"></path>
+						<circle id="leftKnee" class="robot_joints_and_belly" cx="216.4" cy="203.1" r="5.1"></circle>
+
+						<g transform="matrix(0.99999,-0.0009,0.0009,0.99999,-0.17555153975035864,0.14904982445600012)" data-svg-origin="164.6484375 194.1015625" id="upperBody">
+
+							<rect x="146" y="143" transform="matrix(-0.968 -0.2511 0.2511 -0.968 362.8447 338.4026)" class="robot_limbs_and_ears" width="114" height="6.1"></rect>
+							<g transform="matrix(0.99995,0.00907,-0.00907,0.99995,1.372459842332205,-2.337757437491973)" data-svg-origin="258.34765625 150.10000610351562" id="leftArm">
+								<path transform="matrix(0.92003,0.39184,-0.39184,0.92003,108.13908052965877,-83.52335454513059)" data-svg-origin="258.69921875 223.17578125" id="leftOuterClaw" class="robot_hands_feet" d="M247.7,212.6l21.1,21.1c5.8-5.8,5.8-15.3,0-21.1C262.9,206.7,253.5,206.7,247.7,212.6
+									z"></path>
+								<path transform="matrix(0.92003,-0.39184,0.39184,0.92003,-66.79088393423052,119.08029377199485)" data-svg-origin="258.34765625 223.17578125" id="leftInnerClaw" class="robot_hands_feet" d="M247.7,212.6c-5.8,5.8-5.8,15.3,0,21.1l21.1-21.1
+									C262.9,206.7,253.5,206.7,247.7,212.6z"></path>
+								<rect x="254.7" y="161.1" class="robot_limbs_and_ears" width="7" height="25"></rect>
+								<path class="robot_limbs_and_ears" d="M263,217.5l-9.7,0c-2.8,0-5-2.3-5-5l0-22.7c0-2.8,2.3-5,5-5l9.7,0c2.7,0,5,2.3,5,5l0,22.7
+									C268,215.3,265.7,217.5,263,217.5z"></path>
+								<circle class="robot_joints_and_belly" cx="258.2" cy="186.5" r="5.1"></circle>
+							</g>
+							<path class="robot_body" d="M270.4,163.5c1.7-6.7-2.3-13.6-9-15.4c-6.7-1.7-13.6,2.3-15.4,9c-1.7,6.7,2.3,13.6,9,15.4
+								C261.8,174.3,268.7,170.3,270.4,163.5z"></path>
+
+								<rect x="130" y="138.3" transform="matrix(0.8845 0.4666 -0.4666 0.8845 83.8309 -45.3494)" class="robot_limbs_and_ears" width="7" height="16.7"></rect>
+							<g transform="matrix(0.99948,0.03196,-0.03196,0.99948,4.9730673450566485,-4.065920880497714)" data-svg-origin="129.6484375 153.5" id="rightLowerArm">
+								<path transform="matrix(1,0,0,1,0,0)" data-svg-origin="130 191.94921875" id="rightInnerClaw" class="robot_hands_feet" d="M119,181.3l21.1,21.1c5.8-5.8,5.8-15.3,0-21.1C134.2,175.5,124.8,175.5,119,181.3z"></path>
+								<path transform="matrix(1,0,0,1,0,0)" data-svg-origin="129.6484375 191.94921875" id="rightOuterClaw" class="robot_hands_feet" d="M119,181.3c-5.8,5.8-5.8,15.3,0,21.1l21.1-21.1C134.2,175.5,124.8,175.5,119,181.3z"></path>
+								<path class="robot_limbs_and_ears" d="M134.5,186.2l-9.7,0.1c-2.7,0-5-2.2-5-5l-0.2-22.7c0-2.7,2.2-5,5-5l9.7-0.1c2.7,0,5,2.2,5,5l0.2,22.7
+									C139.5,183.9,137.3,186.2,134.5,186.2z"></path>
+							</g>
+							<circle class="robot_joints_and_belly" cx="129.4" cy="154.3" r="5.1"></circle>
+							<path class="robot_body" d="M154.3,133.4c1.7-6.7-2.3-13.6-9-15.4c-6.7-1.7-13.6,2.3-15.4,9c-1.7,6.7,2.3,13.6,9,15.4
+								C145.7,144.2,152.6,140.2,154.3,133.4z"></path>
+							<path class="robot_hands_feet" d="M210.2,119.6l-1.4-1.5c0.1-0.1,9.1-8.7,7.2-15.5l1.9-0.5C220.2,110,210.6,119.2,210.2,119.6z"></path>
+							<path class="robot_hands_feet" d="M215.9,117.4l-1.3-1.5c0.4-0.3,9.3-7.5,17.2-7.7l0,2C224.6,110.3,216,117.3,215.9,117.4z"></path>
+							<path class="robot_body" d="M210,116l-0.7-1.9c0.1,0,11.8-4.5,12.6-11.5l2,0.3C222.9,111.1,210.5,115.8,210,116z"></path>
+
+							<rect x="203.8" y="108.1" transform="matrix(0.7809 0.6246 -0.6246 0.7809 121.0947 -105.8214)" class="robot_limbs_and_ears" width="15.2" height="23.2"></rect>
+							<path class="robot_body" d="M217.3,207.9l-62.6-16.2c-5.3-1.4-8.5-6.9-7.2-12.2l19.6-58.3c1.4-5.3,6.4-8.7,11.2-7.4l56.2,14.6
+								c4.8,1.2,7.6,6.6,6.2,11.9l-11.2,60.5C228.1,206,222.6,209.3,217.3,207.9z"></path>
+							<path class="robot_joints_and_belly" d="M211.5,184.8l-40.4-10.5c-3.4-0.9-5.5-4.4-4.6-7.9l12.7-37.6c0.9-3.4,4.1-5.6,7.2-4.8l36.3,9.4
+								c3.1,0.8,4.9,4.3,4,7.7l-7.2,39.1C218.5,183.6,214.9,185.6,211.5,184.8z"></path>
+						</g>
+					</g>
+				<desc></desc><defs></defs></svg>
+        </div>
+    </div>
+
+    <div class="robotpage-bottom-half">
+
+        <div>
+            <p id="robot-text">抱歉，您要访问的页面不存在</p>
+
+            <p>有可能您输入的网址不正确或已失效</p>
+
+            <div class="robot-buttons">
+                <a href="http://rrjc.com">回到首页</a>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+	<style>
+/*
+	#foot{height:auto;margin-top: 0px;padding-bottom:20px;background:url(statics/images/footLogo/foot.jpg) repeat-x;}
+	.fttab{margin:0 auto;}
+	.fttab td{padding-left: 10px;}
+*/
+</style>
+<!-- 
+<div id="foot">
+<div class="foot_list">
+<ul>
+<li class="f16"><span class="us_h"><a target="_blank" rel="nofollow"  href="concatUs.do">联系我们</a></span></li>
+<li style="letter-spacing:-1px;"><span class="le"><img src="images_new/mianico.jpg" width="13" height="13"/></span>深圳市南山区软件产业基地1栋A座506</li>
+<li><span class="le"><img src="images_new/mo.jpg" width="13" height="12"/></span>400-9690-900</li>
+<li><span class="le"><img src="images_new/email.jpg " width="13" height="13"/></span>kefu@rrjc.com</li>
+</ul>
+<ul>
+	<li class="f16"><span class="us_h">　　<a target="_blank" rel="nofollow"   href="concatUs.do">关注我们</a></span></li>
+	<li style=" margin-top:6px;padding-left: 32px;">
+		<span class="weixin">
+			<a target="_blank" rel="nofollow"  href="http://e.t.qq.com/renrenmoney_RRM?preview" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image26','','images_new/sina_wei_h.png',1)">
+			<img src="images_new/sina_wei.png" alt="腾讯微博" name="Image26" width="30" height="26" border="0" id="Image26" title="腾讯微博"/></a>
+		</span>
+		<span class="weixin"><a target="_blank" rel="nofollow"  href="http://e.weibo.com/319996962" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image27','','images_new/sinah.png',1)">
+			<img src="images_new/sinal.png" alt="新浪微博" name="Image27" width="23" height="20" border="0" id="Image27" title="新浪微博"/></a>
+		</span>
+		<span class="weixin">
+			<a target="_blank" rel="nofollow"    id="id2" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image28','','images_new/weixin1.png',1)">
+				<img src="images_new/weixin.png" alt="人人聚财官方微信" name="Image28" width="24" height="20" border="0" id="Image28" title="人人聚财官方微信" />
+			</a>
+		</span>
+		<span class="weixin">
+			<a  rel="nofollow" target="_blank" id="onlineService"  href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzgwMDAwMTI3OF8yNjI1NzNfODAwMDAxMjc4XzJf" >
+			<img  style="CURSOR: pointer" border="0" src="images_new/qq.png" alt="在线QQ" name="Image29" width="20" height="22" border="0" id="Image29" title="在线QQ" /></a>
+		</span>
+	</li>
+	<li style="font-size:16px;padding-left:32px;margin-top:18px;">友情链接</li>
+	<li style="padding-left:32px">
+		<a href="http://www.jingbei.com.cn" title="京北金融" target="_blank">京北金融</a>
+		<a href="http://www.wangdaizhijia.com" title="网贷之家" target="_blank">网贷之家</a>
+	</li>
+</ul>
+<ul>
+<li class="f16"><a target="_blank"   href="help/co.jsp">关于我们</a>　　　　　
+<span class="us_h"><a target="_blank"   href="help/helpIndex.html">帮助信息</a></span></li>
+<li><a target="_blank"   href="help/co.jsp">公司介绍</a>　　　　　　　　 
+	<a target="_blank"   href="help/helpIndex.html">帮助中心</a></li>
+<li><a target="_blank"   href="concatUs.do">联系我们</a>　　　　　　　　 
+	<a target="_blank"   href="help/helpDetail_1_22.html">新手入门</a></li>
+<li><a target="_blank"  href="help/tea.jsp">团队介绍</a>　　　　　　　　
+	<a target="_blank"   href="help/helpDetail_2_46.html">常见问题</a></li>
+<li><a target="_blank"   href="jobInfo.do">人才招聘</a>　　　　　　　　
+	<a target="_blank"  href="help/webMap.jsp">网站地图</a></li>
+</ul>
+<ul>
+<li class="f14 kftel">客服热线</li>
+<li  class="f22 kftel">400-9690-900</li>
+<li  class="f14 kftel">工作日：9:00-21:00</li>
+<li  class="f14 kftel">非工作日：9:00-12:00</li>
+<li  class="f14 kftel">       14:00-21:00</li>
+</ul>
+</div>
+
+<div class="fein">© 2014  rrjc.com | 深圳市人人聚财金融信息服务有限公司  | 
+备案号：<a href="http://www.miitbeian.gov.cn" target="_blank" rel="nofollow"><span style=" color:#A6A6A6">粤ICP备13073936号</span></a>&nbsp;&nbsp;
+<span class="weixin1"> <a target="_blank" rel="nofollow"  href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image32','','images_new/govIconh.png',1)"></a> 
+&nbsp;
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fa4256f7845719037274eb13d290baf02' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+</span>
+</div>
+
+
+
+<table class="fttab" width="500" border="0" cellspacing="0" cellpadding="0" class="cc" background="images_new/oppr.jpg">
+  <tbody>
+  
+                <tr>
+                  <td>
+                    <a href="https://trustsealinfo.verisign.com/splash?form_file=fdf/splash.fdf&amp;dn=secure.rrjc.com&amp;lang=zh_cn">                      <img src="statics/images/footLogo/ftimg01.jpg" width="72" height="28" border="0" id="Image60"></a>
+                  </td>
+                  <td>
+                    <form action="https://ss.knet.cn/verifyseal.dll?sn=e15041644030058369fn9m000000&comefrom=trust&trustKey=dn&trustValue=www.rrjc.com" method="post" name="f">
+                      <input type="hidden" name="index_flag" value="true">
+                      <input type="hidden" name="isFromVerify" value="">
+                      <input type="hidden" name="queryValue" value="www.rrjc.com">
+                      <a title="可信网站" href="javascript:;" onclick="document.f.submit()" target="_blank" rel="nofollow">
+                        <img src="statics/images/footLogo/ftimg02.jpg" width="72" height="28"></a>
+                    </form>
+                  </td>                  
+                 
+                  <td>
+                  
+                 		 <a href="http://www.anquan.org/authenticate/cert/?site=www.rrjc.com&at=business" title="安全联盟">
+                    	<img src="statics/images/footLogo/ftimg03.jpg" width="72" height="28" border="0">
+                  </td>
+                  
+                   <td>
+                    <a href="https://cert.ebs.gov.cn/1fd9505d-93e5-4daf-b2bf-49a9ac3eb9a9" title="工商网监">
+                      <img src="statics/images/footLogo/ftimg04.jpg" width="72" height="28" border="0"></a>
+                  </td>
+                  
+                  <td>
+                    <a href="https://www.tenpay.com/" title="财付通">
+                      <img src="statics/images/footLogo/ftimg05.jpg" width="80" height="28" border="0"></a>
+                  </td>
+                  
+                  <td>
+                    <a href="http://www.sinosig.com/" title="阳光保险">
+                      <img src="statics/images/footLogo/ftimg07.jpg" width="80" height="28" border="0"></a>
+                  </td>
+                </tr>
+			</tbody>
+			</table>
+
+
+</div>
+
+<div style="display: none" id=testID>
+<P><img src="images_new/2weima.jpg" width="250" height="250" /></P>打开微信，点击底部的″发现″，使用″扫一扫″即可关注人人聚财官方微信. </div> 
+
+
+ -->
+ 
+ <div class="footer">
+    <div class="top">
+        <div class="cnt auto c">
+            <div class="list link1">
+                <h2><a href="help/helpDetail_1_42.html">我要投资</a></h2>
+                <ul>
+                    <li><a href="help/newPerson.jsp">新手入门</a></li>
+                    <li><a href="help/helpDetail_1_22.html">注册</a></li>
+                    <li><a href="help/helpDetail_1_24.html">充值</a></li>
+                </ul>
+            </div>
+            <div class="list link1">
+                <h2><a href="zt/anquan/aqbz">安全保障</a></h2>
+                <ul>
+                    <li><a href="https://www.rrjc.com/zt/fengkong/">风控安全</a></li>
+                    <li><a href="guideToXiaMenBank.do">银行存管</a></li>
+                    <li><a href="bz/cfca"  target="_blank">电子签章</a></li>
+                </ul>
+            </div>
+            <div class="list link1">
+                <h2><a href="help/helpIndex.html">帮助中心</a></h2>
+                <ul>
+                    <li><a href="help/helpDetail_1_26.html">充值提现</a></li>
+                    <li><a href="help/helpDetail_1_54.html">体验金</a></li>
+                    <li><a href="help/helpDetail_1_53_137.html">代金券</a></li>
+                </ul>
+            </div>
+            <div class="list link2">
+                <h2>关注我们</h2>
+                <ul id="gzwm">
+                    <li><a class="a1 J-desk" href="javascript:;"></a></li>
+                    <li><a class="a2" href="javascript:;"></a></li>
+                    <li><a class="a3" href="http://weibo.com/319996962" target="_blank"></a></li>
+                    <li><a class="a4" href="javascript:;"></a></li>
+                </ul>
+                <div class="gzwm gzwm-qq">
+                    <span></span>点击咨询在线客服
+                 </div>
+                <div class="gzwm gzwm-wx">
+                    <span></span>
+                    <img src="statics/images/homepage/code2.png" alt=""/>
+                </div>
+                <div class="gzwm gzwm-sina">
+                    <span></span>点击关注"人人聚财"微博
+                </div>
+                <div class="gzwm gzwm-phone">
+                    <span></span>
+                    <img src="statics/images/homepage/erweima.png" width="160" height="185" alt=""/>
+                </div>
+            </div>
+            <div class="list link3">
+                <h2>客服热线</h2>
+                <p class="tel">400-9690-900</p>
+                <dl class="c">
+                    <dt>周一~周五:</dt>
+                    <dd>09:00 - 21:00</dd>
+                </dl>
+                <dl class="c">
+                    <dt>周六~周日:</dt>
+                    <dd>09:00 - 12:00</dd>
+                </dl>
+                <dl class="c">
+                    <dt>&nbsp;</dt>
+                    <dd>13:30 - 18:00</dd>
+                </dl>
+                <p class="kefu">kefu@rrjc.com</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="frdlink">
+        <ul class="c">
+            <li><a class="abtme" href="https://www.rrjc.com/aboutUsMain.do">关于我们</a></li>
+            <li><a href="https://www.rrjc.com/zt/lssws/flbz">法律法规</a></li>
+            <li><a href="https://www.rrjc.com/aboutUsContact.do">联系我们</a></li>
+            <li><a href="https://www.rrjc.com/aboutUsContact.do">商务合作</a></li>
+            <li><a href="javascript:;" onclick="loginBBS();">财迷论坛</a></li>
+        </ul>
+       	<h2 class="c" id="links">
+			
+     	</h2>
+     </div>
+
+    <div class="down">
+        <div class="cnt auto c"> 
+            <ul>
+                <li><a class="a1" href="https://trustsealinfo.verisign.com/splash?form_file=fdf/splash.fdf&amp;dn=www.rrjc.com&amp;lang=zh_cn"target="_blank"></a></li>
+                <li><a class="a2" href="https://www.tenpay.com/"target="_blank"></a></li>
+                <li><a class="a3" href="http://szcert.ebs.org.cn/1fd9505d-93e5-4daf-b2bf-49a9ac3eb9a9"target="_blank"></a></li>
+                <li><form action="https://ss.knet.cn/verifyseal.dll?sn=e15041644030058369fn9m000000&comefrom=trust&trustKey=dn&trustValue=www.rrjc.com" method="post" name="f">
+                      <input type="hidden" name="index_flag" value="true">
+                      <input type="hidden" name="isFromVerify" value="">
+                      <input type="hidden" name="queryValue" value="www.rrjc.com">
+                      <a title="可信网站" href="javascript:;" onclick="document.f.submit()" target="_blank" rel="nofollow" class="a4">
+                        </a>
+                    </form></li>
+                <li><a class="a5" href="http://www.anquan.org/authenticate/cert/?site=www.rrjc.com&at=business"target="_blank"></a></li>
+<li><a class="a8" href="http://si.trustutn.org/info?sn=947151202000332537616"target="_blank" ></a></li>
+            </ul>
+            <p class="pp">© 2011-2017 RRJC.com | 深圳市人人聚财金融信息服务有限公司 | 备案号：<a href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备13073936号</a><br />理财有风险，投资需谨慎</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#id2").click(function() {
+		tipsWindown("关注人人聚财官方微信","id:testID","250","300","true","","true","id");
+	});
+ 
+});
+</script>
+ 
+<script type="text/javascript">
+var _mvq = _mvq || [];
+_mvq.push(['$setAccount', 'm-92483-0']);
+_mvq.push(['$logConversion']);
+(function() {
+	var mvl = document.createElement('script');
+	mvl.type = 'text/javascript'; mvl.async = true;
+	mvl.src = ('https:' == document.location.protocol ? 'https://static-ssl.mediav.com/mvl.js' : 'http://static.mediav.com/mvl.js');
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(mvl, s); 
+
+	$("#novicePlanHighestyield").html("<strong>" + "" + "</strong>%");
+	$("#novicePlanLockperiod").html("" + "个月&nbsp;" + "" + "元起投");
+
+	$("#gotoNoviceA").click(function(){
+		window.open ('planDetail.do?planId=' + "");
+	});
+})();	
+//百度统计代码
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?2975c398c52344aa1e3f0a31abd369cc";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+  $.ajax({
+    type: "GET",
+    url: "getLink.do",
+    dataType: "json",
+    success: function(data){
+       if(data){
+	         var str="<p>友情链接</p><b></b>";
+	          $(data).each(function(index,item){ 
+					str += "<a class='jbjr' href='"+item.COMPANYURL+"' target='_blank'>"+item.COMPANYNAME+"</a>";
+	          });  
+	          $('#links').append(str);
+       }
+	   }
+	});
+})();
+
+</script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?526d7937fc172c1fe3851da3b131c41f";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!--------------- 访问跟踪代码 ----------->
+<script type="text/javascript">
+    var _adwq = _adwq || [];
+    _adwq.push(['_setAccount', 'w9afa']);
+    _adwq.push(['_setDomainName', '.rrjc.com']);
+    _adwq.push(['_trackPageview']);
+ 
+    (function() {
+        var adw = document.createElement('script');
+        adw.type = 'text/javascript';
+        adw.async = true;
+        adw.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://s') + '.emarbox.com/js/adw.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(adw, s);
+    })();
+</script>
+<script type="text/javascript" src="statics/js/index/index.js"></script>
+</body>
+	<script src="https://www.rrjc.com:443/statics/js/zhanghu/TweenMax.js"></script>
+    <script src="https://www.rrjc.com:443/statics/js/zhanghu/brokebot.js"></script>
+    <script src="https://www.rrjc.com:443/statics/js/zhanghu/snap.js"></script>
+    <script type="text/javascript">
+        var isHeadless = true;
+    </script>
+	<script type="text/javascript">
+	if($.browser.msie && ( $.browser.version == "7.0" || $.browser.version == "8.0")){
+		$('#robot_holder').addClass('no-svg');
+		$('#brokebotSVG').hide();
+	}else{
+		$('#robot_holder').removeClass('no-svg');
+		$('#brokebotSVG').show();
+	}
+</script>
+
+ </body>
+</html>
