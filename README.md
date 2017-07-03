@@ -21,6 +21,6 @@ a business project
 
 例如： 
 
-	rrjc > css > main > index.css  这个是首页的模块main放置路径
+	rrjc > home >css> index.css ||||  rrjc > home >images> xxx.png这个是首页的模块home放置路径
 
-  	rrjc > css > aboutus > index.css  这个是关于我们的模块放置路径
+  	rrjc > public > lib > jquery.js  这个大家公共的文件夹，可以放置库文件，还有基础样式

@@ -1,0 +1,11 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+//@import "compass/reset";
+@import "compass/css3";
+@import "compass/support";
+$browser-minimum-versions:('ie':'8');
+
+.head{color:red;border: 1px solid #000;@include border-radius(50%); margin-left: 40px;padding-left: 23px;font-size: 20px; }
