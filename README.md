@@ -1,7 +1,10 @@
+
+
 # rrjc
+
 a business project
 
-##开发分支develop
+## 开发分支develop
 
 我建了一个分支develop，我们的开发都是在分支上pull 和 push的，实际开发中也是这样的，只有提交发布版本的时候才会合并到master. 你们clone的时候默认只有master分支，要手动引入develop分支，具体操作如下：
 
@@ -15,7 +18,7 @@ a business project
 
 也可以参考廖雪峰的个人网站
 
-##文件夹说明
+## 文件夹说明
 
 在项目文件中分了images  css  js 等文件夹，每人根据自己的模块在这些文件夹下建自己模块的文件夹
 
