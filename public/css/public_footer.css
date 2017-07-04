@@ -34,7 +34,7 @@
 .footer .top .cnt .link3 { margin: 25px 0 0 68px; }
 .footer .top .cnt .link3 .tel { font-size: 22px; letter-spacing: 3px; background-position: 0 -297px; margin-top: 6px; }
 .footer .top .cnt .link3 .kefu { display: block; font-size: 16px; letter-spacing: 2px; background-position: 0 -350px; }
-.footer .top .cnt .link3 .tel, .footer .top .cnt .link3 .kefu { height: 35px; line-height: 35px; padding-left: 40px; font-size: 28px; color: #f7f7f7; background-image: url(../../home/images/tb01.png); background-repeat: no-repeat; }
+.footer .top .cnt .link3 .tel, .footer .top .cnt .link3 .kefu { height: 35px; line-height: 35px; padding-left: 40px; color: #f7f7f7; background-image: url(../../home/images/tb01.png); background-repeat: no-repeat; }
 .footer .top .cnt .link3 dl { font-size: 12px; color: #ccc; }
 .footer .top .cnt .link3 dl:before, .footer .top .cnt .link3 dl:after { content: ""; display: table; }
 .footer .top .cnt .link3 dl:after { clear: both; }
@@ -44,6 +44,7 @@
 .footer .frdlink a:hover { color: #e7bc71; }
 .footer .frdlink ul { margin-top: 12px; }
 .footer .frdlink ul li { float: left; margin-right: 33px; }
+.footer .frdlink ul li:nth-of-type(1) a { font-size: 16px; }
 .footer .frdlink ul a { display: block; height: 30px; line-height: 30px; font-size: 14px; color: #f7f7f7; float: left; }
 .footer .frdlink h2 { margin-top: 10px; }
 .footer .frdlink h2 p { float: left; height: 30px; line-height: 30px; font-size: 16px; color: #f7f7f7; }

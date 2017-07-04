@@ -70,7 +70,7 @@
         .kefu{display: block; font-size: 16px; letter-spacing: 2px;
           background-position: 0 -350px;}
         .tel,.kefu{  height: 35px; line-height: 35px; padding-left: 40px;
-          font-size: 28px;  color: #f7f7f7;
+           color: #f7f7f7;
           background-image: url(../../home/images/tb01.png);
           background-repeat: no-repeat;
         }
@@ -88,6 +88,7 @@
     ul{
       margin-top: 12px;
       li{float: left; margin-right: 33px;}
+      li:nth-of-type(1) a{font-size: 16px;}
       a{display: block; height: 30px;  line-height: 30px;  font-size: 14px;  color: #f7f7f7;float: left;}
     }
 
