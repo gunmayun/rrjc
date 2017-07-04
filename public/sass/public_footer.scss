@@ -2,6 +2,125 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@mixin clearflot{
 
+    &:before,
+    &:after {
+      content: "";
+      display: table;
+    }
+    &:after {
+      clear: both;
+    }
+}
 //@import "compass/reset";
-.head{background: red;font-size: 23px;}
+.footer{
+  background: #636464 url(../../home/images/ft_bg.jpg) left top repeat-x; height: 330px;width: 100%;overflow: hidden;
+  .top{
+    .cnt{width: 1200px;margin: 0 auto;@include clearflot;
+      .list{float: left;border-left: 3px solid #5c5b5b; padding-left: 10px;
+        height: 124px;
+        ul{margin-top: 15px;}
+        &>h2,&>h2>a{ font-size: 18px;line-height: 24px;color: white;letter-spacing: 2px;}
+        &>h2>a:hover{color:#e7bc71;}
+        &>ul>li>a{font-size: 12px; font-family: "Microsoft Yahei"; color: #dbdcdc;  text-decoration: none;line-height: 28px;font-size: 14px;}
+        &>ul>li>a:hover{color:#e7bc71}
+      }
+      .link1{ margin: 25px 82px 0 0;}
+      .link2{
+        margin-top: 25px;position: relative;
+        ul>li{
+          float: left; margin-right: 15px;
+          a{display: block; width: 49px; height: 49px; background-image: url(../../home/images/tb03.png); background-repeat: no-repeat;transition: 0.2s;}
+          .a1{background-position: center -129px;}
+          .a2{background-position: center 0;}
+          .a3{background-position: center -256px;}
+          .a4{background-position: center -386px;}
+          .a1:hover{background-position: center -192px;}
+          .a2:hover{background-position: center -65px;}
+          .a3:hover{background-position: center -321px;}
+          .a4:hover{background-position: center -451px;}
+        }
+        .gzwm{
+          position: absolute; top: 105px; background: white;display: none;
+          span{position: absolute;top: -6px;  width: 11px;  height: 6px;
+            background: url(../../home/images/tb07.png) -10px -317px no-repeat;}
+        }
+        .gzwm-qq{
+          width: 135px; height: 60px; line-height: 60px;
+          text-align: center; border: 1px solid #ccc;left: -37px;
+          span{ left: 64px;}
+        }
+        .gzwm-wx{
+          left: 18px;
+          span{left: 76px;}
+        }
+        .gzwm-sina{
+          left: 88px;width: 150px;height: 60px;  line-height: 60px;  text-align: center;border: 1px solid #ccc;
+          span{left: 69px;}
+        }
+        .gzwm-phone{
+          left: 146px;
+          span{left: 75px;}
+        }
+      }
+      .link3{
+        margin: 25px 0 0 68px;
+        .tel{font-size: 22px;  letter-spacing: 3px;background-position: 0 -297px; margin-top: 6px;}
+        .kefu{display: block; font-size: 16px; letter-spacing: 2px;
+          background-position: 0 -350px;}
+        .tel,.kefu{  height: 35px; line-height: 35px; padding-left: 40px;
+          font-size: 28px;  color: #f7f7f7;
+          background-image: url(../../home/images/tb01.png);
+          background-repeat: no-repeat;
+        }
+        dl{font-size: 12px; color: #ccc;@include clearflot;}
+        dt{float: left;  text-align: right;width: 118px;margin-right: 16px;
+          letter-spacing: 3px;}
+        dd{float: left;letter-spacing: 1px;}
+
+      }
+    }
+  }
+  .frdlink{
+    width: 1200px;margin: 20px auto 0;
+    a:hover{color: #e7bc71;}
+    ul{
+      margin-top: 12px;
+      li{float: left; margin-right: 33px;}
+      a{display: block; height: 30px;  line-height: 30px;  font-size: 14px;  color: #f7f7f7;float: left;}
+    }
+
+    h2{
+      margin-top: 10px;
+      p{ float: left;  height: 30px; line-height: 30px;  font-size: 16px;  color: #f7f7f7;}
+      b{ float: left; width: 0px; height: 18px; border-left: 1px solid #d1d1d1; margin: 7px 16px 0;}
+      a{ float: left;margin-right: 33px; display: block; height: 30px;  line-height: 30px; font-size: 14px; color: #f7f7f7;}
+    }
+
+
+
+  }
+  .down{
+    border-top: 1px dashed #808181;margin-top: 20px;
+    .cnt{
+      width: 1200px;margin: 0 auto;
+      ul{
+        float: left;margin: 20px 0;
+        li{float: left;margin-right: 8px;}
+        a{display: block; width: 80px;height: 30px;background-image: url(../../home/images/tb04.png); background-repeat: no-repeat;}
+        .a2{background-position: 0px -35px;}
+        .a3{background-position: 0px -70px;}
+        .a4{background-position: 0px -105px;}
+        .a5{background-position: 0px -140px;}
+        .a8{background-position: 0px -247px;}
+      }
+    }
+    p{
+      float: right;  margin-top: 20px; color: #ccc; font-size: 12px;
+      text-align: center;
+      a{    color: white;}
+    }
+  }
+}
+

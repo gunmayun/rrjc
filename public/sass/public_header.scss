@@ -4,4 +4,45 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 //@import "compass/reset";
-.head{background: red; display: none;font-size: 23px;}
+$fontColor:#595757;
+.header{
+  font-size: 14px;width: 100%;height: 42px;border-bottom: 1px solid #ddd;color: $fontColor;
+  .cnt{
+   width: 1200px;height:100%;position: relative;z-index: 10;
+    .left{
+      float: left;line-height: 42px;height: 100%;width: 50%;
+      p{ float: left;}
+      a{width: 30px;margin: 0 5px;float: left;height: 100%;background: url(../../home/images/tb01.png) left top no-repeat;}
+      .qq{ background-position: 1px -58px;}
+      .wx{ background-position: 1px 10px;}
+      .sina{ background-position: 1px -125px;}
+      .qq:hover{ background-position: 1px -91px;}
+      .wx:hover{ background-position: 1px -24px;}
+      .sina:hover{ background-position: 1px -158px;}
+    }
+    .right{
+      line-height: 42px;height: 100%;width: 50%;float: right;
+      .kfd{background: url(../../home/images/tb01.png) 1px -197px no-repeat;}
+      li{
+        background: url(../../home/images/tb01.png) right -243px no-repeat;float: right;
+        a.special{color: #da915e;}
+        a:hover{ color: #da921d;}
+      }
+      .alink{ height: 40px; line-height: 40px;  padding: 0 25px;font-size: 14px;}
+    }
+    .qqkf>span,.weibo>span,.code>span{display: block;  position: absolute;  left: 96px;  top: -5px;  width: 11px; height: 6px;}
+    .code{
+      display: none;position: absolute; left: 102px; top: 40px;  background: white;  border: 1px solid #ccc; box-shadow: 0px 2px 3px #666;
+      span{ background: url(../../home/images/tb07.png) -10px -317px no-repeat;left:127px;top:-5px;}
+    }
+    .qqkf,.weibo{position: absolute; top: 40px; width: 200px; height: 50px; line-height: 50px;  font-size: 14px; text-align: center; border: 1px solid #ccc; display: none; background: white; box-shadow: 0px 1px 3px #888; }
+
+    .qqkf{ left: 88px;
+      span{ background: url(../../home/images/tb07.png) -10px -317px no-repeat;}
+    }
+    .weibo{left: 167px;}
+    span{background: url(../../home/images/tb07.png) -10px -317px no-repeat;}
+  }
+
+
+}

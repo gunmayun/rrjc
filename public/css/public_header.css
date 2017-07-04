@@ -1,2 +1,26 @@
 /* Welcome to Compass. In this file you should write your main styles. (or centralize your imports) Import this file using the following HTML or equivalent: <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-.head { background: red; display: none; font-size: 23px; }
+.header { font-size: 14px; width: 100%; height: 42px; border-bottom: 1px solid #ddd; color: #595757; }
+.header .cnt { width: 1200px; height: 100%; position: relative; z-index: 10; }
+.header .cnt .left { float: left; line-height: 42px; height: 100%; width: 50%; }
+.header .cnt .left p { float: left; }
+.header .cnt .left a { width: 30px; margin: 0 5px; float: left; height: 100%; background: url(../../home/images/tb01.png) left top no-repeat; }
+.header .cnt .left .qq { background-position: 1px -58px; }
+.header .cnt .left .wx { background-position: 1px 10px; }
+.header .cnt .left .sina { background-position: 1px -125px; }
+.header .cnt .left .qq:hover { background-position: 1px -91px; }
+.header .cnt .left .wx:hover { background-position: 1px -24px; }
+.header .cnt .left .sina:hover { background-position: 1px -158px; }
+.header .cnt .right { line-height: 42px; height: 100%; width: 50%; float: right; }
+.header .cnt .right .kfd { background: url(../../home/images/tb01.png) 1px -197px no-repeat; }
+.header .cnt .right li { background: url(../../home/images/tb01.png) right -243px no-repeat; float: right; }
+.header .cnt .right li a.special { color: #da915e; }
+.header .cnt .right li a:hover { color: #da921d; }
+.header .cnt .right .alink { height: 40px; line-height: 40px; padding: 0 25px; font-size: 14px; }
+.header .cnt .qqkf > span, .header .cnt .weibo > span, .header .cnt .code > span { display: block; position: absolute; left: 96px; top: -5px; width: 11px; height: 6px; }
+.header .cnt .code { display: none; position: absolute; left: 102px; top: 40px; background: white; border: 1px solid #ccc; box-shadow: 0px 2px 3px #666; }
+.header .cnt .code span { background: url(../../home/images/tb07.png) -10px -317px no-repeat; left: 127px; top: -5px; }
+.header .cnt .qqkf, .header .cnt .weibo { position: absolute; top: 40px; width: 200px; height: 50px; line-height: 50px; font-size: 14px; text-align: center; border: 1px solid #ccc; display: none; background: white; box-shadow: 0px 1px 3px #888; }
+.header .cnt .qqkf { left: 88px; }
+.header .cnt .qqkf span { background: url(../../home/images/tb07.png) -10px -317px no-repeat; }
+.header .cnt .weibo { left: 167px; }
+.header .cnt span { background: url(../../home/images/tb07.png) -10px -317px no-repeat; }
