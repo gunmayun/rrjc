@@ -1,3 +1,5 @@
+
+Encoding.default_external = Encoding.find('utf-8')
 require 'compass/import-once/activate'
 # Require any additional compass plugins here.
 

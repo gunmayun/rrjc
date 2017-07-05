@@ -6,7 +6,6 @@
 $.ajax({
     url:'../public/template/header_template.html',
     success:function (data) {
-        console.log(1);
         $('header').html(data);
         public_header();
     }
@@ -16,17 +15,14 @@ $.ajax({
     url:'../public/template/nav_template.html',
     success:function (data) {
         $('nav').html(data);
-        console.log(2);
         public_nav();
     }
 }); //异步加载导航菜单html片段，然后回调执行js
-
 $.ajax({
     url:'../public/template/footer_template.html',
     async:true,
     success:function (data) {
         $('footer').html(data);
-        console.log(3);
         public_footer();
     }
 });//异步加载底部html片段，然后回调执行js
@@ -111,6 +107,49 @@ $.ajax({
             $('#min1').html(minutes);
             $('#sec1').html(seconds);
         },1000);
+        //获取几个需要变化数值的元素 和 目标数值
+        var $total = $('.total');
+        var $element1 = $total.find('.dl1>dd>span').eq(1);
+        var num1 = $element1.attr('data-val');
+        var $element2 = $total.find('.dl1>dd>span').eq(2);
+        var num2 = $element2.attr('data-val');
+
+        var $element3 = $total.find('.dl2>dd>span').eq(1);
+        var num3 = $element3.attr('data-val');
+        var $element4 = $total.find('.dl2>dd>span').eq(2);
+        var num4 = $element4.attr('data-val');
+
+        var $element5 = $total.find('.dl4>dd>span');
+        var num5 = $element5.attr('data-val');
+
+        //分别调用变化数值的函数
+        changNum(num1,$element1);
+        changNum(num2,$element2);
+        changNum(num3,$element3);
+        changNum(num4,$element4);
+        changNum(num5,$element5);
+
+        //累计的数额从0 递增到 预定的值
+        function changNum(targetNum,$element) {
+            var timer = null;
+            var htmlNum  = 0;
+            var originNum = 0;
+            var changTimes = 40;
+            var time = 1000;
+            var count = 0;
+            var speed = parseInt((targetNum - originNum)/40);
+            timer = setInterval(function () {
+                count++;
+                htmlNum+=speed;
+                if(count==40){
+                    clearInterval(timer);
+                    htmlNum = targetNum;
+                }
+                $element.html(htmlNum);
+               // console.log(targetNum);
+            },time/changTimes);
+
+        }
     })
 })(jQuery);
 //honour 荣誉区域
@@ -125,3 +164,97 @@ $.ajax({
         })
     })
 })(jQuery);
+
+//产品item区域
+(function ($) {
+    //鼠标移入.list时，改变border-color
+    $('.list').hover(function () {
+       // alert(1);
+        $(this).css('borderColor','#e2e2e2');
+    },function () {
+        $(this).css('borderColor','#fff');
+    });
+
+    //鼠标移入.able，
+    $('.able').hover(function () {
+        $(this).css({'color':'white','backgroundPosition':'0 -50px'})
+    },function () {
+        $(this).css({'color':'#ae7849','backgroundPosition':'0 0'})
+    });
+
+    //鼠标移入.alink moudle模块切换进来
+    $('.alink').hover(function () {
+        //获取当前移入的item
+        var $item =  $(this).parents('.item');
+        //module移入视觉区
+        $item.find('.module').css('left','110px');
+        //内容相应向右边移动
+        $item.find('[class *= "-con"]').css('left','471px');
+        //mask盖层移入
+        $item.find('.mask').css('right','0');
+        //alink的小人隐藏
+        $item.find('.alink').css('backgroundPositionX','110px');
+    },function () {
+        var $item =  $(this).parents('.item');
+        $item.find('.module').css('left','-251px');
+        $item.find('[class *= "-con"]').css('left','110px');
+        $item.find('.mask').css('right','-180px');
+        $item.find('.alink').css('backgroundPositionX','39px');
+    });
+    //item4 债权项目表格移入改变背景颜色
+    $('.debtList').hover(function () {
+        //alert(1);
+        $(this).css('backgroundColor','rgb(245,245,245)');
+    },function () {
+        $(this).css('backgroundColor','white');
+    });
+})(jQuery);
+
+//新闻模块
+(function ($) {
+    $(function () {
+        var iNow = 0;
+        var timer = null;
+        var newsBox = $('.news-box');
+        newsBox.hover(function () {
+            //放大图片
+            $('#news img').css({'transform':'scale(1.1)','transformOrigin':'left top'});
+            //显示左右箭头
+            $('.arrow').show();
+
+            //清除定时器
+            clearInterval(timer);
+        },function () {
+            $('#news img').css({'transform':'scale(1)'});
+            $('.arrow').hide();
+            //重新启动定时器
+            timer = setInterval(function () {
+                iNow++;
+                iNow%=6;
+                changList(iNow);
+            },2000);
+        });
+        //轮播
+        timer = setInterval(function () {
+            iNow++;
+            iNow%=6;
+            changList(iNow);
+        },2000);
+        function changList(index) {
+            $('#news>li').eq(index).fadeIn().siblings().fadeOut();
+        }
+        //注册点击左右箭头的事件 --切换图片
+        $('#arrow1').click(function () {
+            iNow--;
+            iNow%=6;
+            changList(iNow);
+        });
+        $('#arrow2').click(function () {
+            iNow++;
+            iNow%=6;
+            changList(iNow);
+        });
+
+    })
+})(jQuery);
+
