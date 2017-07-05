@@ -1,3 +1,84 @@
 /* Welcome to Compass. In this file you should write your main styles. (or centralize your imports) Import this file using the following HTML or equivalent: <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 header { z-index: 10; }
+
 nav { z-index: 9; }
+
+.banner { position: relative; min-width: 1200px; width: 100%; height: 400px; overflow: hidden; }
+.banner .cnt { width: 1200px; height: 400px; position: relative; margin: 0 auto; }
+#banner { position: absolute; left: 50%; top: -1px; z-index: 1; width: 20000px; height: 400px; overflow: hidden; margin-left: -1000px; }
+#banner > li { position: absolute; left: 0; top: 0; }
+#banner > li:nth-of-type(1) { z-index: 2; }
+.banner .cnt .line { position: absolute; bottom: 15px; z-index: 3; width: 100%; text-align: center; }
+.banner .cnt .line > li { display: inline-block; width: 55px; height: 5px; margin-left: 13px; cursor: pointer; background: #b4b4b5; }
+.banner .cnt .line > li.current { background: #e7bc71; }
+.banner .cnt .regist { position: absolute; right: 20px; top: 50px; z-index: 2; width: 250px; background: white; cursor: pointer; -moz-animation: upAndDown 2s linear infinite; -webkit-animation: upAndDown 2s linear infinite; animation: upAndDown 2s linear infinite; }
+@-moz-keyframes upAndDown { 0% { top: 50px; }
+  50% { top: 70px; }
+  100% { top: 50px; } }
+@-webkit-keyframes upAndDown { 0% { top: 50px; }
+  50% { top: 70px; }
+  100% { top: 50px; } }
+@keyframes upAndDown { 0% { top: 50px; }
+  50% { top: 70px; }
+  100% { top: 50px; } }
+.banner .cnt .regist h2 { width: 85%; height: 60px; margin: 0 auto; font-size: 14px; line-height: 92px; color: #9e9e9f; font-weight: bold; border-bottom: 2px solid #f2f2f2; text-align: center; }
+.banner .cnt .regist p { color: #e7bc71; font-size: 30px; line-height: 30px; padding-left: 61px; margin-top: 15px; overflow: hidden; }
+.banner .cnt .regist p:before, .banner .cnt .regist p:after { content: ""; display: table; }
+.banner .cnt .regist p:after { clear: both; }
+.banner .cnt .regist p strong { float: left; font-size: 60px; line-height: 75px; font-weight: normal; }
+.banner .cnt .regist p span { float: left; font-size: 40px; margin-top: 30px; }
+.banner .cnt .regist em { font-size: 14px; color: #e7bc71; display: block; text-align: right; font-style: normal; padding-right: 20px; }
+.banner .cnt .regist a { display: block; height: 65px; font-size: 22px; line-height: 65px; color: white; text-align: center; background: #e7bc71; margin-top: 25px; font-weight: bold; letter-spacing: 3px; -moz-transition: 0.5s; -o-transition: 0.5s; -webkit-transition: 0.5s; transition: 0.5s; -moz-box-shadow: 0 0 0 0 white, 0 -8px 15px -8px #aaa, 0 0 0 0 white, 0 0 0 0 white; -webkit-box-shadow: 0 0 0 0 white, 0 -8px 15px -8px #aaa, 0 0 0 0 white, 0 0 0 0 white; box-shadow: 0 0 0 0 white, 0 -8px 15px -8px #aaa, 0 0 0 0 white, 0 0 0 0 white; }
+
+.total { border-bottom: 2px solid #f7f7f7; padding: 15px 0; }
+.total .amount { width: 1200px; height: 50px; overflow: hidden; position: relative; }
+.total .amount dl { position: absolute; top: 0; }
+.total .amount dt { height: 50px; line-height: 60px; margin-right: 10px; font-size: 14px; color: #888; float: left; }
+.total .amount dd { height: 50px; line-height: 50px; font-size: 20px; color: #595757; float: left; }
+.total .amount dd span { font-size: 24px; color: #a97433; }
+.total .amount .dl1 { left: 0; }
+.total .amount .dl2 { left: 300px; }
+.total .amount .dl3 { left: 635px; }
+.total .amount .dl4 { right: 0; }
+
+.honour { width: 1200px; padding: 20px 0; }
+.honour ul { height: 100px; position: relative; }
+.honour ul li { position: absolute; height: 100px; top: 0; color: #848384; overflow: hidden; -moz-transition: top 200ms ease-in-out; -o-transition: top 200ms ease-in-out; -webkit-transition: top 200ms ease-in-out; transition: top 200ms ease-in-out; }
+.honour ul li .sp1 { display: block; font-size: 16px; color: #717071; line-height: 24px; margin-top: 20px; }
+.honour ul li .sp2 { display: block; border-top: 1px solid #cececf; color: #3e3a39; line-height: 24px; }
+.honour ul a { display: block; height: 85px; padding-left: 90px; overflow: hidden; background-image: url(../images/tb02.png); background-repeat: no-repeat; position: relative; top: 15px; }
+.honour ul .li1 { left: 0; }
+.honour ul .li2 { left: 297px; }
+.honour ul .li2 a { background-position: 0 -145px; }
+.honour ul .li3 { left: 633px; }
+.honour ul .li3 a { background-position: 0 -289px; }
+.honour ul .li4 { left: 940px; }
+.honour ul .li4 a { background-position: 0 -434px; }
+
+.item .cnt { width: 1196px; position: relative; overflow: hidden; margin: 0 auto; }
+.item .cnt .alink { float: left; width: 30px; padding: 20px 60px 0 20px; font-size: 28px; color: #595757; position: relative; z-index: 2; }
+.item .cnt .alink span { position: absolute; left: 0; top: 0; width: 0; height: 0; border-top-width: 21px; border-top-style: solid; border-right: 21px solid transparent; }
+.item1 { margin-top: 30px; }
+.item1 .cnt { border: 2px solid #e6bc70; }
+.item1 .cnt .alink { padding-top: 70px; height: 176px; background: #fff9f1 url(../images/xsb.gif) 39px 126px no-repeat; }
+.item1 .cnt .alink span { border-top-color: #e8bc73; }
+.item1 .cnt .xszq-con { position: absolute; left: 110px; top: 0; width: 1087px; background: url(../images/new_bg.png) bottom center no-repeat; height: 248px; }
+.item1 .cnt .xszq-con .xm { position: relative; width: 606px; height: 36px; margin: 0 auto; padding-top: 20px; }
+.item1 .cnt .xszq-con .xm:before, .item1 .cnt .xszq-con .xm:after { content: ""; display: table; }
+.item1 .cnt .xszq-con .xm:after { clear: both; }
+.item1 .cnt .xszq-con .xm strong { float: left; font-size: 25px; color: #555; font-weight: normal; }
+.item1 .cnt .xszq-con .xm span { float: left; font-size: 14px; color: #9e9e9f; line-height: 18px; margin-left: 8px; padding-left: 12px; border-left: 1px solid #f2d6a6; }
+.item1 .cnt .xszq-con .msg { width: 606px; height: 70px; margin: 35px auto 0; background: #e7bc71; box-shadow: 2px 5px 20px -6px #666; }
+.item1 .cnt .xszq-con .msg:before, .item1 .cnt .xszq-con .msg:after { content: ""; display: table; }
+.item1 .cnt .xszq-con .msg:after { clear: both; }
+.item1 .cnt .xszq-con .msg .month { width: 88px; height: 68px; background: url(../images/month.png) 0 0 no-repeat; margin: -5px 0 0 98px; line-height: 76px; text-align: center; font-size: 25px; }
+.item1 .cnt .xszq-con .msg strong { float: left; font-size: 48px; color: white; margin: 3px 0 0 72px; font-weight: normal; }
+.item1 .cnt .xszq-con .msg span { float: left; font-size: 26px; color: white; margin: 26px 0 0 2px; }
+.item1 .cnt .xszq-con .msg b { float: left; font-size: 18px; color: white; margin: 36px 0 0 10px; font-weight: normal; }
+.item1 .cnt .xszq-con .a1 { width: 180px; text-align: center; color: #ae7849; background: url(../images/btn.png) no-repeat; display: block; height: 44px; line-height: 44px; margin: 20px auto 0; font-size: 18px; }
+.item1 .cnt .module { background: url(../images/xszy.jpg) no-repeat; position: absolute; top: 0; z-index: 0; width: 360px; height: 100%; cursor: pointer; }
+.item1 .cnt .mask { position: absolute; right: 180px; top: 0; width: 180px; height: 350px; background: url(../images/mask.png) no-repeat; }
+.item6 { margin-top: 65px; }
+.item6 .cnt { width: 1196px; }
+.item6 .cnt .vzx { float: left; position: relative; z-index: 2; width: 646px; overflow: hidden; border: 2px solid #abcac5; cursor: pointer; }
+.item6 .cnt .vzx alink { height: 290px; background: #e5f1ef url(../images/vzx.gif) 39px 175px no-repeat; }

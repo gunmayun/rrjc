@@ -3,10 +3,175 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-//@import "compass/reset";
 @import "compass/css3";
 @import "compass/support";
+@mixin clearflot{
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
 $browser-minimum-versions:('ie':'8');
 
 header{z-index: 10;}
 nav{z-index: 9;}
+
+.banner{
+  position: relative; min-width: 1200px; width: 100%; height: 400px; overflow: hidden;
+  .cnt{
+    width: 1200px;  height: 400px; position: relative; margin: 0 auto;
+    @at-root #banner{
+      position: absolute;  left: 50%;  top: -1px; z-index: 1; width: 20000px; height: 400px; overflow: hidden;margin-left: -1000px;
+      &>li{ position: absolute; left: 0;top: 0;}
+      &>li:nth-of-type(1){z-index: 2;}
+    }
+    .line{
+      position: absolute; bottom: 15px; z-index: 3;width: 100%;text-align: center;
+      &>li{
+        display: inline-block;  width: 55px;  height: 5px;  margin-left: 13px;
+        cursor: pointer; background: #b4b4b5;
+      }
+      &>li.current{background: #e7bc71;}
+    }
+    .regist{
+      position: absolute;  right: 20px;  top: 50px;  z-index: 2;  width: 250px;
+      background: white;cursor: pointer;@include animation(upAndDown 2s linear infinite);
+     @include keyframes(upAndDown){
+       0% {top:50px }
+       50% {top:70px }
+      100% {top:50px }
+     };
+      h2{
+        width: 85%; height: 60px; margin: 0 auto;font-size: 14px; line-height: 92px;
+        color: #9e9e9f; font-weight: bold; border-bottom: 2px solid #f2f2f2;
+        text-align: center;
+      }
+      p{
+        color: #e7bc71; font-size: 30px;line-height: 30px; padding-left: 61px;
+        margin-top: 15px;overflow: hidden;@include clearflot;
+        strong{  float: left; font-size: 60px; line-height: 75px;font-weight: normal;}
+        span{float: left; font-size: 40px;margin-top: 30px;}
+      }
+      em{ font-size: 14px; color: #e7bc71;display: block; text-align: right;
+        font-style: normal; padding-right: 20px;}
+      a{display: block;height: 65px;font-size: 22px; line-height: 65px;
+        color: white;text-align: center;background: #e7bc71; margin-top: 25px;  font-weight: bold;letter-spacing: 3px;@include transition(0.5s);@include box-shadow( 0 0 0 0 white, 0 -8px 15px -8px #aaa, 0 0 0 0 white, 0 0 0 0 white);}
+    }
+  }
+}
+
+.total{
+  border-bottom: 2px solid #f7f7f7; padding: 15px 0;
+  .amount{
+    width: 1200px; height: 50px;overflow: hidden;position: relative;
+    dl{position: absolute; top: 0;}
+    dt{height: 50px; line-height: 60px; margin-right: 10px; font-size: 14px;color: #888;float: left;}
+    dd{
+      height: 50px;line-height: 50px;font-size: 20px;color: #595757;float: left;
+      span{ font-size: 24px; color: #a97433;}
+    }
+    .dl1{left: 0;}
+    .dl2{left: 300px;}
+    .dl3{left: 635px;}
+    .dl4{right: 0;}
+  }
+}
+
+.honour{
+  width: 1200px; padding: 20px 0;
+  ul{
+    height: 100px; position: relative;
+    li{
+      position: absolute; height: 100px; top: 0; color: #848384;overflow: hidden;
+      @include transition(top 200ms ease-in-out);
+      .sp1{display: block; font-size: 16px;color: #717071;line-height: 24px;
+        margin-top: 20px;}
+      .sp2{display: block; border-top: 1px solid #cececf; color: #3e3a39;
+        line-height: 24px;}
+    }
+    a{display: block; height: 85px;padding-left: 90px; overflow: hidden;
+      background-image: url(../images/tb02.png); background-repeat: no-repeat;
+     position: relative; top: 15px; }
+
+    .li1{left: 0;}
+    .li2{
+      left: 297px;
+      a{ background-position: 0 -145px;}
+    }
+    .li3{
+      left: 633px;
+      a{ background-position: 0 -289px;}
+    }
+    .li4{
+      left: 940px;
+      a{ background-position: 0 -434px;}
+    }
+  }
+}
+
+.item{
+  .cnt{
+    width: 1196px; position: relative;overflow: hidden;margin: 0 auto;
+    .alink{
+      float: left; width: 30px; padding: 20px 60px 0 20px;  font-size: 28px; color: #595757; position: relative; z-index: 2;
+      span{ position: absolute;  left: 0;  top: 0;  width: 0; height: 0;
+        border-top-width: 21px; border-top-style: solid;
+        border-right: 21px solid transparent;}
+    }
+  }
+  @at-root .item1{
+    margin-top: 30px;
+    .cnt{
+      border: 2px solid #e6bc70;
+      .alink{
+        padding-top: 70px; height: 176px; background: #fff9f1 url(../images/xsb.gif) 39px 126px no-repeat;
+        span{border-top-color: #e8bc73;}
+      }
+      .xszq-con{
+        position: absolute;  left: 110px;  top: 0;  width: 1087px;
+        background:url(../images/new_bg.png) bottom center no-repeat;
+        height: 248px;
+        .xm{
+          position: relative; width: 606px; height: 36px;
+          margin: 0 auto; padding-top: 20px;@include clearflot;
+          strong{float: left; font-size: 25px;color: #555;font-weight: normal;}
+          span{float: left; font-size: 14px;color: #9e9e9f;line-height: 18px;
+            margin-left: 8px; padding-left: 12px; border-left: 1px solid #f2d6a6;}
+        }
+        .msg{
+          width: 606px;  height: 70px; margin: 35px auto 0;
+          background: #e7bc71; box-shadow: 2px 5px 20px -6px #666;
+          @include clearflot;
+          .month{width: 88px; height: 68px;background: url(../images/month.png) 0 0 no-repeat; margin: -5px 0 0 98px;
+            line-height: 76px;  text-align: center; font-size: 25px;}
+          strong{float: left; font-size: 48px;  color: white;  margin: 3px 0 0 72px;font-weight: normal;}
+          span{ float: left; font-size: 26px; color: white; margin: 26px 0 0 2px;}
+          b{float: left; font-size: 18px;color: white; margin: 36px 0 0 10px; font-weight: normal;}
+        }
+        .a1{ width: 180px;text-align: center;color: #ae7849;
+          background: url(../images/btn.png) no-repeat;
+          display: block;  height: 44px;  line-height: 44px;
+          margin: 20px auto 0;font-size: 18px;}
+      }
+      .module{background:url(../images/xszy.jpg) no-repeat;
+        position: absolute;top: 0; z-index: 0; width: 360px;
+        height: 100%;cursor: pointer;}
+      .mask{ position: absolute; right: 180px;top: 0;width: 180px;
+        height: 350px;background: url(../images/mask.png) no-repeat;}
+    }
+  }
+  @at-root .item6{
+    margin-top: 65px;
+    .cnt{
+      width: 1196px;
+      .vzx{    float: left;  position: relative;  z-index: 2;  width: 646px; overflow: hidden;  border: 2px solid #abcac5; cursor: pointer;
+        alink{height: 290px;  background: #e5f1ef url(../images/vzx.gif) 39px 175px no-repeat;}
+      }
+    }
+  }
+
+}
